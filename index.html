@@ -1,13 +1,57 @@
 <html>
+    <p>
+      Read me :
+      
+      This a tally counter Web-App. You can use it for counting the heads of people in some
+      ceremony or function you organized. It can also save values for you. So bye bye 
+      notepad, but remember to take a screen-shot before hitting refresh or reset button. 
+      No login required. 
+    </p>
 
-    <head></head>
+     <p>
+       Enjoy!
+     </p>
+  
+    <head>
+      <link rel="stylesheet" href="index.css">
+
+    <style>
+      #footer {
+        position: fixed;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 100%;
+        height: 40px; 
+        }
+    </style>
+      
+    </head>
 
     <body>
         <h1>People entered:</h1>
+      
         <h2 id="count-el">0</h2>
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+       
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <p id="save-el" >Previous Entries: </p>
+        
+        <button id="reset-btn" onclick="reset()">RESET</button>
+        
+        <script src="index.js"></script>
+      
     </body>
 
-    <button id="increment-btn" onclick="increment()">INCREMENT</button>
-    <script src="index.js"></script>
 
-</html>
+
+  <span>
+
+
+    <p>
+    
+    <div id="footer">Made with ❤️ by Saptrshi </div>
+      
+    </p>
+
+  
+</html> 
