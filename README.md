@@ -8,3 +8,5 @@ No login required.
 
 
 Use this free code and make it better ! 😃
+
+Direct Link : https://tally-counter-web-version.sapphire22.repl.co/
