@@ -9,4 +9,4 @@ No login required.
 
 Use this free code and make it better ! 😃
 
-Direct Link : https://tally-counter-web-version.sapphire22.repl.co/
+Direct Link : https://replit.com/@Sapphire22/Tally-Counter-Web-Version
